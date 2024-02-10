@@ -30,7 +30,7 @@ function AboutBlock() {
             </div>
             <div className="flex flex-col items-left">
                 <h2 className="font-bold text-sm">What is Keymetrics.world?</h2>
-                <p>Keymetrics.world unbundles onchain data to surface the latest patterns and trends in WorldApp usage.</p>
+                <p>Keymetrics.world analyzes onchain data to surface the latest patterns and trends in WorldApp usage.</p>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 {
     "functions": {
-        "../app/actions/getOverviewData.tsx": {
+        "app/actions/getOverviewData.tsx": {
             "maxDuration": 60
         }
     }

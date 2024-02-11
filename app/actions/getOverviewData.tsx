@@ -18,7 +18,7 @@ interface OverviewData {
     account_deployments_chart: any[],
 }
 
-export const maxDuration = 60;
+// export const maxDuration = 60;
 
 export async function getOverviewData({ timeframe }: OverviewDataParams): Promise<OverviewData> {
     noStore();

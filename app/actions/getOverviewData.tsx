@@ -18,6 +18,8 @@ interface OverviewData {
     account_deployments_chart: any[],
 }
 
+export const maxDuration = 60;
+
 export async function getOverviewData({ timeframe }: OverviewDataParams): Promise<OverviewData> {
     noStore();
     const response = await fetch(`https://worldmetrics-api.onrender.com/overview?timeframe=${timeframe}`);

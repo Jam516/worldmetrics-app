@@ -19,6 +19,8 @@ export const metadata: Metadata = {
     description: "Worldcoin usage data",
 };
 
+export const maxDuration = 60;
+
 function AboutBlock() {
     return (
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2">

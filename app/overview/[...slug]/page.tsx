@@ -26,7 +26,7 @@ function AboutBlock() {
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col items-left">
                 <h2 className="font-bold text-sm">What is Worldcoin?</h2>
-                <p className="pb-4">Worldcoin is a decentralised identify and finance network.</p>
+                <p className="pb-4">Worldcoin is a decentralised identity and finance network.</p>
                 <p className="pb-4">The WorldApp wallet allows users to make four types of transactions (CLAIM, CLAIM RESERVED, TRANSFER and SWAP)</p>
                 <p >These wallet transactions are batched into bundle transactions that are executed on the Optimism L2.</p>
             </div>

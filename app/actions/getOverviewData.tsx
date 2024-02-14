@@ -26,8 +26,8 @@ export async function getOverviewData({ timeframe }: OverviewDataParams): Promis
     }
 
     const overviewData: OverviewData = await response.json();
-    console.log('Time');
-    console.log(overviewData.time);
+    // console.log('Time');
+    // console.log(overviewData.time);
 
     return overviewData;
 }
